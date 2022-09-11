@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  background-color: rgb(22, 118, 134);
+  font-family: sans-serif;
+}
+.todo-container {
+  width: 500px;
+  text-align: center;
+  margin: auto;
+  margin-top: 30px;
+  
+}
+
+.input-section input {
+  border-radius: 5px;
+  border: 1px solid silver;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgb(22, 118, 134);
+  color:aliceblue;
+  font-size: 20px;
+}
+.input-section {
+  background-color: rgb(22, 118, 134);
+  padding: 15%;
+  border-radius: 5%;
+  color: gray;
+  box-shadow: 0 4px 6px #354348;
+}
+.input-section h1{
+    color: aliceblue;
+}
+
+ul {
+  text-align: left;
+  padding: 0%;
+}
+ul li {
+  display: flex;
+  list-style: none;
+  background-color: rgb(22, 118, 134);
+  padding: 5%;
+  border-radius: 5px;
+  margin-top: 5%;
+  color: aliceblue;
+  box-shadow: 0 4px 6px #354348;
+  font-size: 20px;
+}
+
+ul li i {
+  text-align: right;
+  flex: 1;
+  color: aliceblue;
+  cursor: pointer;
+
+}
